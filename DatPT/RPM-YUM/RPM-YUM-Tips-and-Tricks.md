@@ -269,17 +269,17 @@ CHúng ta có 2 cách để thêm repo vào hệ thống máy khách.
 
 - CHạy lệnh `yum-config-manager` để thêm repo, nó sẽ tự động tạo file repo trong `/etc/yum/repo.d`.
 
-```sh
-yum-config-manager --add-repo http://IP-server/custom_repo
-```
+    ```sh
+    yum-config-manager --add-repo http://IP-server/custom_repo
+    ```
 
 - Sau khi hoàn thành các thiết lập chúng ta tiến hành cài đặt :
 
-```sh
-yum install [package name]
+    ```sh
+    yum install [package name]
 
-# package name ở đây là tên của package trong repo
-```
+    # package name ở đây là tên của package trong repo
+    ```
 
 
 
