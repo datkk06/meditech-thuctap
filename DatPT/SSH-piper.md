@@ -35,6 +35,7 @@
 
 - Cấu trúc thư mục cấu hình host ssh piper như sau :
 
+```sh
 ~/.sshpiperd/
 |
 |
@@ -49,7 +50,7 @@
 |               |
 |               |----sshpiper_upstream
 
-
+```
 
 Trong đó : thư mục sv01 và sv02 sẽ có file `sshpiper_upstream` dùng để lưu trữ thông tin cấu hình ssh đến sv01 và sv02.
 
