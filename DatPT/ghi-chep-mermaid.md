@@ -33,6 +33,8 @@ Trong bài này sẽ hướng dẫn cài đặt mermaid trên CentOS 7.
     yarn add mermaid
     ```
 
+[AsciiMath Documentation](http://asciimath.org/)
+
 ```mermaid
 sequenceDiagram
     Alice ->> Bob: Hello Bob, how are you?
@@ -43,4 +45,5 @@ sequenceDiagram
 
     Bob-->Alice: Checking with John...
     Alice->John: Yes... John, how are you?
+end
 ```
